@@ -55,6 +55,10 @@ body{
   font-size: var(--normal-font-size);
   color: var(--second-color);
 }
+i{
+  
+  color: rgb(24, 144, 223);
+}
 h1,h2,p,h3{
   margin: 0;
 }
