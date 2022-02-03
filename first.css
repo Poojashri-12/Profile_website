@@ -7,7 +7,7 @@
   
   
   :root{
-    --first-color: #4070F4;
+    --first-color: #d31922;
     --second-color: #0E2431;
   }
   
@@ -303,6 +303,24 @@ img{
   cursor: pointer;
 }
 .certificates__img img:hover{
+  transform: scale(1.1);
+}
+/* ===== PROJECTS =====*/
+.task__container{
+  row-gap: 2rem;
+
+}
+.task__img{
+ 
+  border-radius: .5rem;
+  float: left;
+ 
+}
+.task__img img{
+  transition: 1s;
+  cursor: pointer;
+}
+.task__img img:hover{
   transform: scale(1.1);
 }
 
